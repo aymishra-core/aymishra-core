@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=200&section=header&text=Ayush%20Mishra&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=I%20build%20across%20the%20stack%20%E2%80%94%20products,%20APIs,%20ML,%20libraries,%20and%20low-level%20systems&descSize=15&descAlignY=58" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=200&section=header&text=Ayush%20Mishra&fontSize=44&fontColor=ffffff&fontAlignY=32&desc=Full-Spectrum%20Architect&descSize=20&descAlignY=52" width="100%" />
+
+<b>I build across the stack — products, APIs, ML, libraries, and low-level systems.</b>
 
 [![Website](https://img.shields.io/badge/meetouthq.com-0f3460?style=for-the-badge&logo=googlechrome&logoColor=white)](https://meetouthq.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aymishra01/)
