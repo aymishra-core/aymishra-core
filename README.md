@@ -1,41 +1,64 @@
 # Hi, I'm Ayush 👋
 
-I build and ship full-stack products end to end — frontend, API, database, auth, payments, and AI — and put them in front of real users.
+I take products from an empty repo to a live, paid product — frontend, API, database,
+auth, payments, and AI — and put them in front of real users.
 
-I care about the whole system, not one corner of it: a thing I build should be **deployed, paid for, and actually used**, not a demo. Below are two products I've taken from zero to live.
+I care about the whole system, not one corner of it. A thing I build should be
+**deployed, paid for, and actually used**, not a demo. I use AI where it earns its
+place and build the parts around it properly. Below are the products I've taken from
+zero to live.
 
 ---
 
 ## 🚀 What I've shipped
 
 ### MeetOut — [meetouthq.com](https://meetouthq.com)
-**Turn a raw meeting into decisions, action items, a client email, and a follow-up agenda — from pasted text or an audio file.**
+**AI content repurposing · full-stack product development.** Turn anything you've
+read, watched, or noted into a week of publish-ready social posts — from a single
+source.
 
-A live SaaS with real users. Paste a transcript or upload audio, and MeetOut runs it through a switchable LLM pipeline to produce four structured artifacts. Built entirely end-to-end.
+A live SaaS with real users. Drop in a URL, PDF, pasted text, or audio, and MeetOut
+runs it through a switchable LLM pipeline to produce platform-native posts for eight
+channels — LinkedIn, X, Bluesky, Instagram, Facebook, Threads, newsletter, and
+YouTube. Refine each one, attach copyright-safe images, and publish or copy. A second
+mode (in rollout) turns uploaded video into trimmed, ready-to-post clips. Built
+entirely end to end.
 
-- **Frontend:** React 18 + Vite SPA, Tailwind, deployed on Vercel
+- **Frontend:** React 18/19 + Vite SPA, Tailwind, deployed on Vercel
 - **Backend:** Python + FastAPI, SQLAlchemy 2, Pydantic, rate limiting
 - **Database:** Postgres (Supabase) with row-level security
-- **AI:** OpenAI (GPT-4o + Whisper) and Anthropic (Claude Sonnet), provider-switchable; audio → transcript → structured output
-- **Auth & Payments:** JWT + Google OAuth; Razorpay subscriptions with idempotent webhooks
+- **AI:** OpenAI (GPT-4o + Whisper) and Anthropic (Claude), provider-switchable;
+  source → structured, platform-specific output
+- **Auth & Payments:** JWT + Google OAuth; Razorpay subscriptions with idempotent
+  webhooks
+- **Security:** OAuth tokens encrypted at rest, signed-state CSRF protection,
+  server-enforced plan limits
 
 ### BrandKit
-**Generate a complete brand kit — palette, font pairings, and logos — in one pass.**
+**Generative brand identity · full-stack product development.** Generate a complete
+brand kit — palette, font pairings, and logos — in one pass, built on real algorithms
+rather than a single API call.
 
-A generator built on real algorithms, not just an API call: color palettes from HSL/color theory, curated Google Font pairings, and logos composed as SVG. AI is used only where it actually helps (copy/taglines), with a templated fallback.
+Color palettes derived from HSL/color theory, curated Google Font pairings, and logos
+composed as SVG. AI is used only where it actually helps (copy and taglines), with a
+templated fallback so the product never breaks when the model is unavailable.
 
 - **Frontend:** React 19 + Vite + TypeScript + Tailwind
 - **Backend:** FastAPI + SQLAlchemy + Alembic migrations
-- **Core:** algorithmic palette / font / SVG-logo generation, with a single LLM call for copy
+- **Core:** algorithmic palette / font / SVG-logo generation, with a single LLM call
+  for copy
 - **Database:** Postgres (Supabase) · **Auth:** JWT + Google OAuth · **Payments:** Razorpay
 
 ---
 
 ## 🧭 How I work
 
-- **End-to-end or not at all** — I build across every layer: UI, API, data, infra, auth, payments, and AI.
+- **End-to-end or not at all** — every layer: UI, API, data, infra, auth, payments,
+  and AI. The hard parts don't get handed off.
 - **Ship to real users** — deployed and in production beats polished and hypothetical.
-- **AI where it earns its place** — I use LLMs deliberately, and build the non-AI parts properly (algorithms, migrations, idempotent webhooks) rather than wrapping everything in a model.
+- **AI where it earns its place** — LLMs used deliberately, with the non-AI parts built
+  properly: real algorithms, migrations, idempotent webhooks, encrypted secrets, and
+  server-enforced limits — rather than wrapping everything in a model.
 
 ---
 
@@ -51,7 +74,7 @@ A generator built on real algorithms, not just an API call: color palettes from 
 
 ## 📫 Reach me
 
-- **Email:** aymishra.in@gmail.com
-- **LinkedIn:** https://www.linkedin.com/in/aymishra01/
+- **Email:** <aymishra.in@gmail.com>
+- **LinkedIn:** <https://www.linkedin.com/in/aymishra01/>
 
 *Open to talking with builders, founders, and people working on AI-driven products.*
