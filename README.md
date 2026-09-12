@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=200&section=header&text=Ayush%20Mishra&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=Full-stack%20product%20development%20%E2%80%94%20zero%20to%20live,%20paid%20product&descSize=16&descAlignY=60" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=200&section=header&text=Ayush%20Mishra&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=I%20build%20across%20the%20stack%20%E2%80%94%20products,%20APIs,%20ML,%20libraries,%20and%20low-level%20systems&descSize=15&descAlignY=58" width="100%" />
 
 [![Website](https://img.shields.io/badge/meetouthq.com-0f3460?style=for-the-badge&logo=googlechrome&logoColor=white)](https://meetouthq.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aymishra01/)
@@ -22,6 +22,16 @@ I build across every layer — frontend, API, database, auth, payments, and AI �
 | **BrandKit**<br>Generative brand identity | Palettes, font pairings, and logos built on **real algorithms**, not one API call: HSL/color-theory palettes, curated font pairings, SVG-composed logos — one LLM call for copy, with a **templated fallback** so it never breaks when the model is down. | React · TypeScript · FastAPI · Alembic · Postgres · Razorpay |
 
 **Under the hood, both:** JWT + Google OAuth · Razorpay subscriptions with **idempotent webhooks** · Postgres **row-level security** · OAuth tokens **encrypted at rest** · **signed-state CSRF** protection · **server-enforced** plan limits. The unglamorous parts, done right.
+
+---
+
+## 🔧 Builds
+
+> Smaller, critical work — libraries, APIs, ML, systems & networking. Growing.
+
+<!-- Add each as you make it public:
+| **[repo-name](url)** | one line on what it does / the hard part | Stack |
+-->
 
 ---
 
@@ -62,16 +72,6 @@ I build across every layer — frontend, API, database, auth, payments, and AI �
 ![Anthropic](https://img.shields.io/badge/Anthropic-D4A27F?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Razorpay](https://img.shields.io/badge/Razorpay-0C2451?style=for-the-badge&logo=razorpay&logoColor=white)
 ![Google OAuth](https://img.shields.io/badge/Google_OAuth-4285F4?style=for-the-badge&logo=google&logoColor=white)
-
----
-
-## 📊 Activity
-
-<div align="center">
-
-![Ayush's GitHub stats](https://github-readme-stats.vercel.app/api?username=aymishra-core&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=tokyonight&title_color=0f3460&icon_color=3FCF8E)
-
-</div>
 
 ---
 
