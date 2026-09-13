@@ -1,84 +1,39 @@
-<div align="center">
+# Ayush Mishra
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=200&section=header&text=Ayush%20Mishra&fontSize=44&fontColor=ffffff&fontAlignY=32&desc=Full-Spectrum%20Architect&descSize=20&descAlignY=52" width="100%" />
+**AI Researcher · Systems Software Engineer · Data Scientist**
 
-<b>I build across the stack — products, APIs, ML, libraries, and low-level systems.</b>
+I build across the stack — products, APIs, ML, libraries, and low-level systems. I ship things people actually use, not demos, and build the parts around the AI properly.
 
-[![Website](https://img.shields.io/badge/meetouthq.com-0f3460?style=for-the-badge&logo=googlechrome&logoColor=white)](https://meetouthq.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aymishra01/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aymishra.in@gmail.com)
-
-</div>
+[![Website](https://img.shields.io/badge/meetouthq.com-111?style=flat&logo=googlechrome&logoColor=white)](https://meetouthq.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aymishra01/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:aymishra.in@gmail.com)
 
 ---
 
-I build across every layer — frontend, API, database, auth, payments, and AI — and ship things people actually use, not demos. AI where it earns its place; the parts around it built properly.
+### Shipped
+
+**[MeetOut](https://meetouthq.com)** — AI content repurposing
+One source → platform-native posts for 8 channels via a switchable LLM pipeline. A second mode turns uploaded video into trimmed, ready-to-post clips through an FFmpeg render pipeline with a background worker.
+<sub>React · FastAPI · Postgres · OpenAI · Anthropic · Razorpay</sub>
+
+**BrandKit** — generative brand identity
+Palettes, font pairings, and logos built on real algorithms, not one API call — with a single LLM call for copy and a templated fallback so it never breaks when the model is down.
+<sub>React · TypeScript · FastAPI · Alembic · Postgres · Razorpay</sub>
+
+<sub>Both: JWT + Google OAuth · idempotent payment webhooks · Postgres RLS · OAuth tokens encrypted at rest · signed-state CSRF · server-enforced limits.</sub>
 
 ---
 
-## 🚀 Shipped
+### Stack
 
-| Product | The hard part | Stack |
-|---|---|---|
-| **[MeetOut](https://meetouthq.com)**<br>AI content repurposing | One source → platform-native posts for **8 channels** via a switchable LLM pipeline, each in the target platform's own format. A second mode turns uploaded video into trimmed, ready-to-post clips through an **FFmpeg render pipeline with a background job worker**. | React · FastAPI · Postgres · OpenAI · Anthropic · Razorpay |
-| **BrandKit**<br>Generative brand identity | Palettes, font pairings, and logos built on **real algorithms**, not one API call: HSL/color-theory palettes, curated font pairings, SVG-composed logos — one LLM call for copy, with a **templated fallback** so it never breaks when the model is down. | React · TypeScript · FastAPI · Alembic · Postgres · Razorpay |
-
-**Under the hood, both:** JWT + Google OAuth · Razorpay subscriptions with **idempotent webhooks** · Postgres **row-level security** · OAuth tokens **encrypted at rest** · **signed-state CSRF** protection · **server-enforced** plan limits. The unglamorous parts, done right.
-
----
-
-## 🔧 Builds
-
-> Smaller, critical work — libraries, APIs, ML, systems & networking. Growing.
-
-<!-- Add each as you make it public:
-| **[repo-name](url)** | one line on what it does / the hard part | Stack |
--->
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Postgres](https://img.shields.io/badge/Postgres-4169E1?style=flat&logo=postgresql&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-D4A27F?style=flat&logo=anthropic&logoColor=white)
 
 ---
 
-## 🧭 How I work
-
-- **End-to-end or not at all** — UI, API, data, infra, auth, payments, AI. The hard parts don't get handed off.
-- **Ship to real users** — deployed and in production beats polished and hypothetical.
-- **AI where it earns its place** — LLMs used deliberately, with real algorithms, migrations, idempotent webhooks, encrypted secrets, and server-enforced limits around them — not a model wrapping everything.
-
----
-
-## 🛠️ Stack
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
-
-**Backend**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
-
-**Data & Infra**
-
-![Postgres](https://img.shields.io/badge/Postgres-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
-
-**AI & Payments**
-
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic-D4A27F?style=for-the-badge&logo=anthropic&logoColor=white)
-![Razorpay](https://img.shields.io/badge/Razorpay-0C2451?style=for-the-badge&logo=razorpay&logoColor=white)
-![Google OAuth](https://img.shields.io/badge/Google_OAuth-4285F4?style=for-the-badge&logo=google&logoColor=white)
-
----
-
-<div align="center">
-
-*Open to talking with builders, founders, and people working on AI-driven products.*
-
-</div>
+<sub>Open to talking with builders, founders, and people working on AI-driven products.</sub>
