@@ -2,7 +2,7 @@
 
 **AI Researcher · Systems Software Engineer · Data Scientist**
 
-I build across the full stack of a system — from the interface down to the metal. Frontend, API, database, auth, payments, and AI at the product layer; the algorithms, data pipelines, and low-level systems underneath; and the infrastructure, networking, and deployment that carries it to real users. I take things from an empty repo to a live, paid product — and build the parts around the AI properly: real algorithms, migrations, encrypted secrets, and server-enforced limits, not a model wrapping everything. I ship things people actually use, not demos.
+From pixels to protocols — I build the full depth of a system: interface, intelligence, infrastructure — from empty repo to live, paid product.
 
 [![MeetOut](https://img.shields.io/badge/meetouthq.com-111?style=flat&logo=googlechrome&logoColor=white)](https://meetouthq.com)
 [![BrandKit](https://img.shields.io/badge/thebrandkit.com-111?style=flat&logo=googlechrome&logoColor=white)](https://thebrandkit.com)
